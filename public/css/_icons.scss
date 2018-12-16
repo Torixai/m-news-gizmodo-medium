@@ -1,0 +1,27 @@
+@mixin navIcon($background) {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  text-align: center;
+  cursor: pointer;
+  background-color: $background;
+}
+
+@mixin navIconText($color) {
+  font-family: $montserrat;
+  font-weight: 800;
+  padding-top: 6px;
+  color: $color;
+}
+
+.fb-icon {
+  @include navIcon(#3b5998);
+}
+
+.twitter-icon {
+  @include navIcon(#1da1f2);
+}
+
+.icon-text {
+  @include navIconText(#fff);
+}
