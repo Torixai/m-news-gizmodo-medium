@@ -1,2 +1,3 @@
 # m-news-gizmodo-medium
-design practice, news mobile site. sass/jquery
+デザイン練習。モバイルのニュースサイトイメージ。SCSS使用
+design practice, news mobile site. SCSS
