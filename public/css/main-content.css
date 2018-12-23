@@ -21,6 +21,15 @@
   padding-top: 6px;
   color: #fff; }
 
+a {
+  color: #348adb; }
+
+.txt-jp {
+  display: none; }
+
+.disp-none {
+  display: none; }
+
 .content-area {
   padding: 0 20px; }
 
@@ -28,14 +37,26 @@
   margin-top: 50px;
   padding: 30px 0; }
 
-.article-title h1 {
+.article-jp h1 {
   font-family: "Noto Sans JP", sans-serif;
   font-size: 24px;
   font-weight: 600;
   line-height: 1.25;
   margin-bottom: 20px; }
 
-.article-title h5 {
+.article-jp h5 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  color: #7d7d7d; }
+
+.article-eng h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 26px;
+  font-weight: 900;
+  line-height: 1.25;
+  margin-bottom: 20px; }
+
+.article-eng h5 {
   font-family: "Montserrat", sans-serif;
   font-size: 12px;
   color: #7d7d7d; }
@@ -45,10 +66,18 @@
   height: auto; }
 
 .article-area {
-  margin-top: 30px;
+  margin-top: 30px; }
+
+.article-jp {
   font-family: "Noto Sans JP", sans-serif;
   font-size: 16px;
   line-height: 2; }
+
+.article-eng {
+  font-family: "Lora", serif;
+  font-size: 15px;
+  line-height: 2;
+  letter-spacing: 0.05em; }
 
 .bottom-area {
   height: 313px;

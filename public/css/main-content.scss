@@ -1,6 +1,18 @@
 @import "./colors";
 @import "./icons";
 
+a {
+  color: $linkColor;
+}
+
+.txt-jp {
+  display: none;
+}
+
+.disp-none {
+  display: none;
+}
+
 .content-area {
   padding: 0 20px;
 }
@@ -10,7 +22,7 @@
   padding: 30px 0;
 }
 
-.article-title h1 {
+.article-jp h1 {
   font-family: $notoSans;
   font-size: 24px;
   font-weight: 600;
@@ -18,7 +30,21 @@
   margin-bottom: 20px;
 }
 
-.article-title h5 {
+.article-jp h5 {
+  font-family: $montserrat;
+  font-size: 12px;
+  color: $subFontColor;
+}
+
+.article-eng h1 {
+  font-family: $montserrat;
+  font-size: 26px;
+  font-weight: 900;
+  line-height: 1.25;
+  margin-bottom: 20px;
+}
+
+.article-eng h5 {
   font-family: $montserrat;
   font-size: 12px;
   color: $subFontColor;
@@ -31,9 +57,19 @@
 
 .article-area {
   margin-top: 30px;
+}
+
+.article-jp {
   font-family: $notoSans;
   font-size: 16px;
   line-height: 2;
+}
+
+.article-eng {
+  font-family: $Lora;
+  font-size: 15px;
+  line-height: 2;
+  letter-spacing: 0.05em;
 }
 
 .bottom-area {
