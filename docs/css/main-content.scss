@@ -1,5 +1,11 @@
 @import "./colors";
 @import "./icons";
+@import "./header-nav";
+@import "./footer-nav";
+
+body {
+  max-width: 500px;
+}
 
 a {
   color: $linkColor;

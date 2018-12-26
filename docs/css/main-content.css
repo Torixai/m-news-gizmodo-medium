@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Lora|Montserrat|Noto+Sans+JP");
+@import url("https://fonts.googleapis.com/css?family=Lora|Montserrat|Noto+Sans+JP");
+@import url("https://fonts.googleapis.com/css?family=Lora|Montserrat|Noto+Sans+JP");
 .fb-icon {
   height: 30px;
   width: 30px;
@@ -20,6 +22,55 @@
   font-weight: 800;
   padding-top: 6px;
   color: #fff; }
+
+.header-nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  max-width: 500px;
+  z-index: 10;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2); }
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+  padding: 0 20px;
+  background-color: #fff; }
+
+.logo-icon-header {
+  padding-top: 10px;
+  cursor: pointer; }
+
+.header-menu-icon {
+  cursor: pointer; }
+
+.footer-nav {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  max-width: 500px;
+  z-index: 10; }
+
+.footer-content {
+  min-height: 70px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 40px; }
+
+.footer-icon-area {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px; }
+
+.footer-margin {
+  margin-right: 30px; }
+
+.star-icon {
+  margin-top: 20px; }
+
+body {
+  max-width: 500px; }
 
 a {
   color: #348adb; }
