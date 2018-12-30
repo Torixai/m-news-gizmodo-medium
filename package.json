@@ -6,10 +6,11 @@
   "author": "shu-endo <nysopua@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "dev": "concurrently \"yarn serve\" \"yarn format\"",
+    "dev": "concurrently \"yarn serve\" \"yarn format\" \"yarn watchbuild\"",
     "serve": "browser-sync start --config bs-config.js",
     "format": "onchange 'docs/' -- prettier --write {{changed}}",
-    "build": "webpack docs/js/app.js docs/js/bundle.js"
+    "build": "webpack docs/js/app.js docs/js/bundle.js",
+    "watchbuild": "webpack --watch"
   },
   "devDependencies": {
     "browser-sync": "^2.26.3",

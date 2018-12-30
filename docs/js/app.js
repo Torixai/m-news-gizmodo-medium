@@ -10,7 +10,7 @@ $(function() {
     $menuIcon.fadeOut(200);
     setTimeout(() => {
       $closeIcon.fadeIn(150);
-    }, 320);
+    }, 200);
   });
 
   $closeIcon.on("click", () => {
@@ -18,6 +18,6 @@ $(function() {
     $closeIcon.fadeOut(200);
     setTimeout(() => {
       $menuIcon.fadeIn(150);
-    }, 320);
+    }, 200);
   });
 });
