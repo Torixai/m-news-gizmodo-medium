@@ -2,8 +2,6 @@
   "name": "div-puzzle",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "https://github.com/shu-endo/div-puzzle.git",
-  "author": "shu-endo <nysopua@gmail.com>",
   "license": "MIT",
   "scripts": {
     "watchall": "concurrently \"yarn serve\" \"yarn format\" \"yarn watchbuild\" \"yarn watchsass\"",
