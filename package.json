@@ -6,11 +6,13 @@
   "author": "shu-endo <nysopua@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "dev": "concurrently \"yarn serve\" \"yarn format\" \"yarn watchbuild\"",
+    "watchall": "concurrently \"yarn serve\" \"yarn format\" \"yarn watchbuild\" \"yarn watchsass\"",
+    "dev": "concurrently \"yarn serve\" \"yarn format\" \"yarn watchsass\"",
     "serve": "browser-sync start --config bs-config.js",
     "format": "onchange 'docs/' -- prettier --write {{changed}}",
-    "build": "webpack docs/js/app.js docs/js/bundle.js",
-    "watchbuild": "webpack --watch"
+    "watchbuild": "webpack --watch",
+    "watchsass": "node-sass -r -w docs/css/main-content.scss docs/css/main-content.css",
+    "autoprefix": "postcss --use autoprefixer --no-map docs/css/main-content.css -d docs/css/"
   },
   "devDependencies": {
     "browser-sync": "^2.26.3",
@@ -23,7 +25,10 @@
     "webpack-dev-server": "^3.1.14"
   },
   "dependencies": {
+    "autoprefixer": "^9.4.3",
     "jquery": "^3.3.1",
+    "node-sass": "^4.11.0",
+    "node-sass-import": "^2.0.1",
     "yarn": "^1.12.3"
   }
 }
