@@ -20,7 +20,7 @@
 .icon-text {
   font-family: "Montserrat", sans-serif;
   font-weight: 800;
-  padding-top: 6px;
+  padding-top: 25%;
   color: #fff; }
 
 .header-nav {
@@ -116,10 +116,10 @@ input[type="search"]:-ms-input-placeholder {
   bottom: 0;
   width: 100%;
   max-width: 500px;
-  z-index: 10; }
+  z-index: 4; }
 
 .footer-content {
-  min-height: 70px;
+  min-height: 80px;
   display: flex;
   justify-content: space-between;
   padding: 0 40px; }
@@ -131,6 +131,10 @@ input[type="search"]:-ms-input-placeholder {
 
 .footer-margin {
   margin-right: 30px; }
+
+.footer-size {
+  width: 40px;
+  height: 40px; }
 
 .star-icon {
   margin-top: 20px; }

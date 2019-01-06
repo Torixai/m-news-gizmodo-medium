@@ -5,11 +5,11 @@
   bottom: 0;
   width: 100%;
   max-width: 500px;
-  z-index: 10;
+  z-index: 4;
 }
 
 .footer-content {
-  min-height: 70px;
+  min-height: 80px;
   display: flex;
   justify-content: space-between;
   padding: 0 40px;
@@ -23,6 +23,11 @@
 
 .footer-margin {
   margin-right: 30px;
+}
+
+.footer-size {
+  width: 40px;
+  height: 40px;
 }
 
 .star-icon {
